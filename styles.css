@@ -39,7 +39,7 @@ nav li:last-child {
 	border-right: none;
 }
 
-nav li a, nav li a:hover, nav li a:visited {
+nav li a:link, nav li a:hover, nav li a:visited {
 	color: #f5f5f5;
 }
 
@@ -111,8 +111,8 @@ a:visited {
 }
 
 footer {
-	font-size: 11p}x;	
-	}font-style: italic;
+	font-size: 11px;	
+	font-style: italic;
 	text-align: center;
 	padding: 5px 0;
 }
