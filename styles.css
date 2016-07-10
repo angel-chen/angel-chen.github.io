@@ -21,7 +21,6 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-
 }
 
 nav ul {
@@ -115,4 +114,13 @@ footer {
 	font-style: italic;
 	text-align: center;
 	padding: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+	nav li {
+		float: none;
+	}
+	main {
+		margin-top: 50px;
+	}
 }
